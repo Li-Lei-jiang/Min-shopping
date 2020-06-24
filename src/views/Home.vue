@@ -73,7 +73,7 @@ export default {
         this.brandrim = res.data[4];
         this.brandSelection = res.data[5];
         this.last = res.data[6].panelContents;
-        //  console.log(this.last)
+         console.log(this.slideshows)
         //  console.log(res)
       })
       .catch(err => {

@@ -284,7 +284,6 @@ export default {
   }
 }
 </style>
-
 <style>
 .vaptcha-init-main {
   display: table;

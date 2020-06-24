@@ -26,7 +26,7 @@ export default {
   components: {},
   methods: {},
   mounted() {
-    console.log(this.activity);
+    // console.log(this.activity);
   },
   watch: {},
   computed: {}
@@ -47,16 +47,17 @@ export default {
     }
     .content {
       
-      border: 1px solid rgba(0, 0, 0, 0.14);
-      border-radius: 8px;
+      // border: 1px solid #dcdcdc;
+      // border-radius: 8px;
       display: flex;
       .content_item {
-        width: 25%;
-        border-right: 1px solid rgb(237, 237, 237);
-        height: 200px;
+           width: 24.9%;
+    border-right: 1px solid #ededed;
+    height: 200px;
+    margin: 0 auto;
         ._item_tp {
           width: 100%;
-          // border-radius: 10px;
+          border-radius: 8px;
           height: 100%;
         }
       }

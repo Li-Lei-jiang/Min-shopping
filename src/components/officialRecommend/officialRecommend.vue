@@ -107,13 +107,14 @@ export default {
     .floors:hover {
       .banners {
         box-shadow: inset 0 0 38px rgba(0, 0, 0, 0.08);
-        transition: all 0.15s ease;
+       
       }
       .good_item:hover {
-        transform: translateY(-3px);
+        transform: translateY(0px);
+         transition: all 0.15s ease;
         box-shadow: 1px 1px 20px #999;
           .tab {
-            display: inline-flex;
+            display: block;
           }
           .salePrice {
             display: none;
@@ -129,21 +130,28 @@ export default {
       .banners {
         width: 50%;
         height: 430px;
-        .br1_tp {
+       .br1{
+        //  width: 50%;
+        height: 430px;
+          .br1_tp {
           width: 100%;
           height: 100%;
         }
+       }
       }
 
       .good_item {
         width: 25%;
         height: 430px;
-        .good-tps {
+       .good-tp{
+         text-align: center;
+          .good-tps {
               margin: 50px auto 10px;
               width: 206px;
               height: 206px;
               display: block;
         }
+       }
         .good-title {
           line-height: 1.2;
           font-size: 16px;
@@ -182,6 +190,7 @@ export default {
               background-color: #f9f9f9;
               width: 100px;
               height: 30px;
+              display:inline-block;
               line-height: 28px;
               margin: 0px 5px;
               background-image: linear-gradient(180deg, #fff, #f9f9f9);
@@ -193,6 +202,7 @@ export default {
               width: 100px;
               height: 30px;
               line-height: 28px;
+               display:inline-block;
               color: #fff;
               background-color: #678ee7;
               margin: 0px 5px;

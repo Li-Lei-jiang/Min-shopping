@@ -43,10 +43,15 @@ export default {
       type: Array,
       default: () => []
     }
+    
   },
   components: {},
-  methods: {},
-  mounted() {},
+  methods: {
+    
+  },
+  mounted() {
+    // console.log(slideshows);
+  },
   watch: {},
   computed: {}
 };
@@ -66,7 +71,7 @@ export default {
         display: flex;
         // display: inline-block;
         .banner {
-          
+          border-radius: 10px;
           position: relative;
           width: 100%;
           height: 500px;

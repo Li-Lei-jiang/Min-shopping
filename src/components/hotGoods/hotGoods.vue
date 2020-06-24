@@ -106,7 +106,7 @@ export default {
         .price {
           display: none;
         }
-        transform: translateY(-3px);
+        transform: translateY(0px);
         box-shadow: 1px 1px 20px #999;
       }
       .goods-item {
